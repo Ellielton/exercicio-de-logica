@@ -1,4 +1,4 @@
-console.log("1 - Crie um programa que pede dois numeros ao usuaário e retorna o maior deles (usando if e else)");
+document.write("1 - Crie um programa que pede dois numeros ao usuaário e retorna o maior deles (usando if e else)");
 
 //<<<<<<<<<<<<<<<<<Resposta A: >>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -16,10 +16,10 @@ if (numA > numB ) {
 }
 
 //SAIDA: exibir o maior entre os números
-console.log(processamento)
+document.write(processamento +'</br>')
 
 
 //<<<<<<<<<<<Resposta B: >>>>>>>>>>>>>>>>>>>>>>>>>
 let resposta = numA > numB? numA : numB;
 
-console.log("O maior número é: " + resposta);
+document.write("O maior número é: " + resposta);
