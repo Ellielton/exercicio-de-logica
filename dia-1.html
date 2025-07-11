@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>Document</title>
+</head>
+<body>
+  <h1>Fácil 1- Faça um programa que peça dois números e verifique (usando if e else) e imprima o maior deles </h1><br>
+  <div class="algoritmo">
+  <p>início</p>
+  <div class="principal">
+  <p>Leia: numA</p>
+  <p>Leia: numB</p>
+  <p>Se numA === numB Então escreva: "Os números são iguais"</p>
+  
+  <p>Senão Se numA > numB Entao escreva:"numA é o numero maior"</p>
+  <p>Senão escreva: "numB e o número maior"</p>
+  </div>
+  <p>fim</p>
+  </div>
+  <button class="btn" data-btn>Testar algoritmo</button>
+
+  <script>
+  let btn = document.querySelector('[data-btn]')
+
+btn.addEventListener('click', testar);
+
+function testar(){
+//ENTRADA: 2 numeros
+const numA = prompt('Informe um número');
+const numB = prompt('informe outro número!');
+let processamento;
+
+//PROCESSAMENTO: Comparar os números
+if(numA === numB) {
+  processamento = "Os números são iguais!"
+}else if (numA > numB) {
+  processamento = "O maior número é: " + numA;
+} else {
+  processamento = "O maior número é: " + numB;
+}
+
+//SAIDA: exibir o maior entre os números
+document.write(processamento + '</br>')
+
+
+//<<<<<<<<<<<Resposta B: >>>>>>>>>>>>>>>>>>>>>>>>>
+//let resposta = numA > numB ? numA : numB;
+}
+  </script>
+</body>
+</html>

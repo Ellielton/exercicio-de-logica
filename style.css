@@ -1,0 +1,40 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: grey;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1.75rem;
+  margin-left: 20px;
+}
+.algoritmo {
+  background: white;
+  width: 90%;
+  border: solid 1px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.principal {
+  margin-left: 50px;
+}
+
+.btn {
+  margin: 40px 0 0 0;
+  padding:20px 40px;
+  font-size: 3rem;
+  background: blue;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+}
